@@ -7,8 +7,8 @@ import {
 } from './constants/pageData';
 
 const configs = {
-  title: 'Tomas Gonzalez',
-  subTitle: 'Dev portfolio.',
+  title: 'DHARANIKUMARAN',
+  subTitle: '< c o d e r >',
   stars: {
     maxSize: 20,
     emissionIntencity: 40,
@@ -16,7 +16,7 @@ const configs = {
     // url: 'icons/three-js-logo.png',
     dencity: 900,
   },
-  navTitle: 'Tomas Gonzalez portfolio.',
+  navTitle: "DK's    portfolio.",
   relevantStops: STOPS,
   pages: [
     {
@@ -128,18 +128,19 @@ const configs = {
         topPadding: 0.2,
         scale: 0.3,
         items: [
-          {
-            url: 'icons/twitter.png',
-            websiteURL: 'https://twitter.com/kiter_js',
-          },
+          
           {
             url: 'icons/linkedin.png',
             websiteURL:
-              'https://www.linkedin.com/in/tomas-gonzalez-perez-8784a2133/',
+              'https://www.linkedin.com/in/dharanikumaransk/',
           },
           {
             url: 'icons/github.png',
-            websiteURL: 'https://github.com/TomasGonzalez',
+            websiteURL: 'https://github.com/KingpinDk',
+          },
+          {
+            url: 'icons/instagram.jpg',
+            websiteURL: 'https://www.instagram.com/kingpin_dk/',
           },
           {
             url: 'icons/email.png',
