@@ -144,7 +144,7 @@ const configs = {
           },
           {
             url: 'icons/email.png',
-            websiteURL: 'mailto:tomasgp14@gmail.com',
+            websiteURL: 'mailto:simplykingpin@gmail.com',
           },
         ],
       },
