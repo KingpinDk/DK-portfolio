@@ -26,9 +26,9 @@ const configs = {
       displayAt: displayAt('About'),
       title: 'Who Am I?',
       infos: [
-        "* I'm a maker, a curious thinker who enjoys learning and comprehending how things function.",
-        '* My journey as a software developer started when I was a just a kid trying to figure out how video games where made.',
-        '* I started my career as a front-end developer around 6 years ago in 2017, and since then I have helped many startup companies and non-profit organizations to develop quality products.',
+        "* I'm a problem solver, a curious nerd who enjoys learning and comprehending how things function.",
+        "* I'm a member of Technology Innovation Hub a club where we build extrordinary projects for our college",
+        '* Mostly I love writing logic rather UI designing but still I have done some awesome projects with amazing frontend.',
         '* I have a wide range of skills, of which I can say that I’ve mastered many.',
       ],
     },
@@ -39,7 +39,7 @@ const configs = {
       position: [-PAGE_DEPH_MARGIN, 0, 0],
       title: 'Experience',
       imageList: EXPERIENCE,
-      footer: 'You can click the icons to find out more.',
+      footer: 'Click the icon to find out more(^ - ^).\n\nAlso help me add your Company logo here!!',
     },
     {
       scale: 15,
@@ -55,7 +55,7 @@ const configs = {
       displayAt: displayAt('Download CV'),
       rotation: [0, 0, 0],
       position: [0, 0, PAGE_DEPH_MARGIN],
-      title: 'Here is my CV!',
+      title: 'Here is my Resume!',
       footer: 'Click the icon above to view!',
       imageList: {
         rows: 1,
@@ -67,7 +67,7 @@ const configs = {
           {
             url: 'icons/resume.png',
             websiteURL:
-              'https://docs.google.com/document/d/1wKGkXHhd7q5v3AOGPMK6Gtehpp_Tkp90BvUufUqQIRc/edit?usp=sharing',
+              'https://drive.google.com/file/d/1yMRU_GgGVCiVlowD7OSQBTxKlvbsmd18/view?usp=sharing',
           },
         ],
       },
@@ -77,39 +77,31 @@ const configs = {
       displayAt: displayAt('Personal Projects'),
       rotation: [Math.PI / 2, 0, 0],
       position: [0, -PAGE_DEPH_MARGIN, 0],
-      title: 'Personal Projects',
-      footer: '(And also this web-app)',
+      title: 'Projects',
+      footer: '\nAnd more...',
       imageList: {
         rows: 2,
-        separation: 2.5,
-        leftPadding: -0.4,
+        separation: 2.0,
+        leftPadding: -0.3,
         topPadding: 0.2,
         scale: 0.3,
         items: [
           {
-            url: 'websites-preview/nft-place-logo.png',
-            websiteURL: 'https://nft-place.xyz/',
+            url: 'websites-preview/HereAgain.png',
+            websiteURL: 'https://kingpin-dk.itch.io/here-again',
           },
           {
-            url: 'websites-preview/snow-hero.png',
-            websiteURL: 'https://powtom48.itch.io/snow-the-hero',
+            url: 'websites-preview/Taskify.png',
+            websiteURL: 'https://github.com/KingpinDk/Taskify',
           },
           {
-            url: 'websites-preview/minecraft-in-js.png',
+            url: 'websites-preview/cuvasol.jpeg',
             websiteURL:
-              'https://www.youtube.com/watch?v=yOUQquusyiY&t=123s&ab_channel=tomugon',
+              'https://play.google.com/store/apps/details?id=com.cuvasol.studentapp&pli=1',
           },
           {
-            url: 'websites-preview/fish-chopter.png',
-            websiteURL: 'https://powtom48.itch.io/fishcopter',
-          },
-          {
-            url: 'websites-preview/odd-clowns.png',
-            websiteURL: 'https://oddclowns.com/',
-          },
-          {
-            url: 'websites-preview/island-ai.png',
-            websiteURL: 'https://www.instagram.com/island.ai/',
+            url: 'websites-preview/TIH.jpeg',
+            websiteURL: 'https://github.com/KingpinDk/VisitorManagement',
           },
         ],
       },

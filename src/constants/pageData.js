@@ -25,7 +25,7 @@ export const EXPERIENCE = {
   items: [
     {
       url: 'websites-preview/cuvasol.jpeg',
-      websiteURL: 'https://www.cuvasol.com/',
+      websiteURL: 'https://cuvasol-certificate.netlify.app',
     },
   ],
 };
