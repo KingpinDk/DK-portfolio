@@ -37,7 +37,7 @@ const useSetColor = (nodes) => {
         }
       }
     });
-  }, []);
+  },);
 };
 
 export default useSetColor;

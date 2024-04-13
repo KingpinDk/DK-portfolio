@@ -8,7 +8,7 @@ const { stars } = configs;
 
 const MAX_SIZE = stars.maxSize || 50;
 const MAX_SPEED = 0.01;
-const MAX_EMISSION = 500;
+//const MAX_EMISSION = 500;
 
 function StarsField(props) {
   // This reference gives us direct access to the THREE.Mesh object

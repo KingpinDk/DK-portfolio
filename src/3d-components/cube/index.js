@@ -29,7 +29,7 @@ function Box(props) {
   useFrame((state, delta) => {
     const offset = scroll.range(START_POINT, 0.4);
     const cubeCapTransparencyOffset = scroll.range(START_POINT, 0.2);
-    const visibleRange = scroll.range(0.9, 0.1);
+    //const visibleRange = scroll.range(0.9, 0.1);
 
     //set up the opacity for head component
     nodes['Cube002'].children.map(

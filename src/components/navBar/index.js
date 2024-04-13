@@ -6,11 +6,11 @@ import {
   AiFillCaretRight,
   AiFillPauseCircle,
 } from 'react-icons/ai';
-import { useRaf, useWindowSize } from 'rooks';
+import {  useWindowSize } from 'rooks';
 
 import theme from '~/src/theme';
 import NavModal from './NavModal';
-import useStore from '../../context/mainStore';
+//import useStore from '../../context/mainStore';
 import CONFIG from '../../configs';
 
 const { navTitle } = CONFIG;
@@ -74,7 +74,7 @@ const NavBar = () => {
         setPlayingAudio(!audio.current.paused);
       });
     }
-  }, []);
+  }, );
 
   useEffect(() => {
     setWindowWidth(innerWidth);

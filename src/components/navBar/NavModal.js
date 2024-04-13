@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react';
 import Modal from 'react-modal';
 import styled from 'styled-components';
-import { isMobile } from 'react-device-detect';
+//import { isMobile } from 'react-device-detect';
 
 import useStore from '~/src/context/mainStore';
 import configs from '../../configs';
@@ -32,7 +32,7 @@ const Button = styled.button`
 `;
 
 const NavModal = (props) => {
-  const { floatingCamera, scrollElement, setFloatingCamera } = useStore(
+  const { scrollElement} = useStore(
     (state) => state
   );
 
